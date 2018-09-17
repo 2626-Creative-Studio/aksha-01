@@ -1,12 +1,21 @@
 ﻿body {
 
+	.w-100 {
+		display: block;
+		width: 100%
+	}
+
+	.pb-20 {
+		padding-bottom: 20px;
+	}
+
 	.span-01 {
-		display:inline;	
+		display: inline;
 		background: #6EB3BA;
 		color: #ffffff;
 		padding: 6.4px 48px;
 		font-size: 16px;
-		width:30px;
+		width: 30px;
 		border-radius: 0px 23px 23px 0px;
 	}
 
@@ -96,6 +105,7 @@
 			padding: 0 16px;
 
 			a {
+				border: 0 solid #6EB3BA;
 				font-family: Arial;
 				font-size: 15px;
 				font-weight: normal;
@@ -121,6 +131,7 @@
 			padding: 0 16px;
 
 			a {
+				border: 0 solid #6EB3BA;
 				font-family: Arial;
 				font-size: 15px;
 				font-weight: normal;
@@ -138,6 +149,7 @@
 			padding: 0 16px;
 
 			a {
+				border: 0 solid #6EB3BA;
 				font-family: Arial;
 				font-size: 15px;
 				font-weight: normal;
@@ -146,11 +158,67 @@
 		}
 	}
 
-	#row7{
-		th{
+	#row7 {
+		th {
 			padding-bottom: 50px;
-			img{
+
+			img {
 				width: 100%;
+			}
+		}
+	}
+
+	#row8 {
+
+		.article_01 {
+			width: 200px;
+			margin: 0 auto;
+			border: 1px solid #ccc;
+
+			.auto {
+				width: 100%;
+				height: auto;
+			}
+		}
+
+		.content-01 {
+			font-size: 12.8px;
+			width: 170px;
+			margin: 0 auto;
+			display: block;
+			padding-top: 10px;
+
+			.btn01 {
+				background: #ffcb08;
+				border-radius: 20px;
+
+				a {
+					font-family: Arial;
+					font-weight: normal;
+					font-size: 7.8px;
+				}
+			}
+
+			.btn02 {
+				background: #5cb847;
+				border-radius: 20px;
+
+				a {
+					font-family: Arial;
+					font-weight: normal;
+					font-size: 7.8px;
+				}
+			}
+
+			.btn03 {
+				background: #4dc0f0;
+				border-radius: 20px;
+
+				a {
+					font-family: Arial;
+					font-weight: normal;
+					font-size: 7.8px;
+				}
 			}
 		}
 	}
