@@ -122,6 +122,11 @@
 			font-size: 12.8px;
 		}
 
+		a {
+			color: #000000;
+			text-decoration: underline;
+		}
+
 		.bdr-btm {
 			border-bottom: 1px solid #ccc;
 		}
@@ -247,6 +252,11 @@
 		.row {
 			width: 90%;
 			margin: 0 auto;
+
+			.link {
+				color: #AFAFAF;
+				text-decoration: underline;
+			}
 
 			.columns {
 				padding: 0;
