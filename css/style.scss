@@ -69,7 +69,7 @@
 			font-size: 13px;
 			font-weight: bold;
 			display: inline;
-
+			text-decoration: underline;
 			img {
 				padding-bottom: 7px;
 			}
@@ -82,9 +82,7 @@
 			text-align: center;
 			padding: 4px;
 			padding-bottom: 10px;
-			a{
-				text-decoration: none;
-			}
+			font-weight: bold;
 		}
 		.div02{
 			display: table-cell;
@@ -94,12 +92,6 @@
 			text-align: center;
 			padding: 4px;
 			padding-bottom: 10px;
-			a{
-				text-decoration: none;
-			}
-			img {
-				padding-bottom: 12px!important;
-			}
 		}
 	}
 
@@ -158,6 +150,7 @@
 				font-size: 12.8px;
 				padding: 5px 29px 0px 3px;
 				color: #000000;
+				font-weight: bold;
 				text-decoration: underline;
 			}
 		}
